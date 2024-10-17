@@ -33,7 +33,7 @@ might help with the notation for mathematical expressions.
 $$
 T(n) = 
 \begin{cases} 
-1 & \text{if } n \leq 1, \\
+1 & \text{if } n \leq 1,\\
 3T\left(\frac{n}{3}\right) + \mathcal{O}(n^3) & \text{if } n > 1
 \end{cases}
 $$
