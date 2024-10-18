@@ -30,10 +30,6 @@ function mystery(n) {
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
-$T(n) = 
-\begin{cases} 
-1 & \text{if } n \leq 1,\\
-3T\left(\frac{n}{3}\right) + \mathcal{O}(n^3) & \text{if } n > 1
-\end{cases}$
+$T(n) = \begin{cases} 1 & \text{if } n \leq 1,\\3T\left(\frac{n}{3}\right) + \mathcal{O}(n^3) & \text{if } n > 1\end{cases}$
 Since the relation is dominated by $\mathcal{O}(n^3)$, the complexity is $T(n) = \mathcal{O}(n^3)$
 
