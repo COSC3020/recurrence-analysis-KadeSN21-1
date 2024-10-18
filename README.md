@@ -38,5 +38,5 @@ T(n) =
 \text{if } n > 1\end{cases}
 $$
 
-Since the relation is dominated by $\mathcal{O}(n^3)$, the complexity is $T(n) = \mathcal{O}(n^3)$
+Since the relation is dominated by $\mathcal{O}(n^3)$, the function is bounded by $\mathcal{O}(n^3)$
 
