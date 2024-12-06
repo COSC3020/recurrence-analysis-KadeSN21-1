@@ -71,19 +71,19 @@ $$
 $$
 
 $$
-= nT(1) + (\left(\frac{3^{log(n) - 1}{3^{5(log(n - 1}}\right) + 1) * n^5
+= nT(1) + (\left(\frac{3^{log(n) - 1}{3^{5(log(n) - 1)}}\right) + 1) * n^5
 $$
 
 Dropping the constant factor $nT(1) we now have:
 
 $$
-(\left(\frac{3^{log(n) - 1}{3^{5(log(n - 1}}\right) + 1) * n^5
+(\left(\frac{3^{log(n) - 1}{3^{5(log(n) - 1)}}\right) + 1) * n^5
 $$
 
 Simplifying:
 
 $$
-n^5 * \left(\frac{3^{log(n) - 1}{3^{5(log(n - 1}}\right) + n^5
+n^5 * \left(\frac{3^{log(n) - 1}{3^{5(log(n) - 1)}}\right) + n^5
 $$
 
 Since $\left(\frac{3^{log(n) - 1}{3^{5(log(n) - 1)}}\right)$ aproaches 0 as $n$ approaches $\infinity$, $n^5$ dominates this relation, thus $n^5 \in \mathical{O}(n^5)$
