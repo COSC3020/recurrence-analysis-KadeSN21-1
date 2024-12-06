@@ -30,13 +30,32 @@ function mystery(n) {
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
-
+I relaized that the first and last for loops are running $n^2$ times, and updated my reccurence relation to reflect $n^2 * n * n^2 = n^5$.
 $$
 T(n) = 
 \begin{cases} 1 & \text{if } n \leq 1,\\
-3T\left(\frac{n}{3}\right) + \mathcal{O}(n^3) & 
+3T\left(\frac{n}{3}\right) + \mathcal{O}(n^5) & 
 \text{if } n > 1\end{cases}
 $$
 
 Since the relation is dominated by $\mathcal{O}(n^3)$, the function is bounded by $\mathcal{O}(n^3)$
+
+We can solve this by substitution:
+First level:
+$$
+T(n) = 3T\left(\frac{n}{3}\right) + (n^5)
+$$
+
+Second Level:
+
+$$
+9T\left(\frac{n}{9}\right) + \left(\frac{n}{3}\right)^5 + n^5
+$$
+
+Third level:
+
+$$
+T(n) = 27T\left(\frac{n}{27}\right) + \mathcal{O}(n/3*3)^5 + n^5
+$$
+
 
