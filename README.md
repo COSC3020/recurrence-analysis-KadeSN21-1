@@ -56,7 +56,13 @@ $$
 Third level:
 
 $$
-T(n) = 27T\left(\frac{n}{27}\right) + \mathcal{O}(n/3*3)^5 + n^5
+27T\left(\frac{n}{27}\right) + \left(\frac{n}{9}\right)^5 + \left(\frac{n}{3}\right)^5 + n^5
+$$
+
+This pattern is similar to the one that you solved on slide 22, however it includes a summation, so the general form is as follows:
+
+$$
+3^iT\left(\frac{n}{3^i}\right) + \sum_{k=0}^{i-1}(3^k)/(3^(5k))*n^5
 $$
 
 
