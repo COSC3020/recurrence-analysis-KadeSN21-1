@@ -62,7 +62,7 @@ $$
 This pattern is similar to the one that you solved on slide 22, however it includes a summation, so the general form is as follows:
 
 $$
-3^iT\left(\frac{n}{3^i}\right) + \sum_{k=0}^{i-1}(3^k)/(3^{5k})*n^5
+3^iT\left(\frac{n}{3^i}\right) + \sum_{k=0}^{i-1}\left(\frac{3^k}{3^{5k}}\right)*n^5
 $$
 
 
