@@ -42,6 +42,7 @@ Since the relation is dominated by $\mathcal{O}(n^3)$, the function is bounded b
 
 We can solve this by substitution:
 First level:
+
 $$
 T(n) = 3T\left(\frac{n}{3}\right) + (n^5)
 $$
