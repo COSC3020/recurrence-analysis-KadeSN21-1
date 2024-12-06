@@ -90,4 +90,5 @@ $$
 
 Since $\left(\frac{3^{log(n) - 1}}{3^{5(log(n) - 1)}}\right)$ aproaches 0 as $n$ approaches $\infty$, $n^5$ dominates this relation, thus $nT(1) + (\left(\frac{3^{log(n) - 1}}{3^{5(log(n) - 1)}}\right) + 1) * n^5 \in \mathcal{O}(n^5)$
 
+Help: Slide 20 helped get me started, I then looked at https://github.com/COSC3020/recurrence-analysis-Powerfuljackell-2 to get an idea of how to form the summation that takes place here, with help on that also from https://www.cuemath.com/geometric-sum-formula/ I also used ChatGPT to find out how to write $\infty$ and $\sum{}^{}$
 
