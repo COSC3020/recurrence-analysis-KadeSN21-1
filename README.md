@@ -65,4 +65,10 @@ $$
 3^iT\left(\frac{n}{3^i}\right) + \sum_{k=0}^{i-1}\left(\frac{3^k}{3^{5k}}\right)*n^5
 $$
 
+If we plug in $log(n)$ for $i$, we have:
+
+$$
+3^{log(n)}T\left(\frac{n}{3^{log(n)}\right) + \sum_{k=0}^{log(n)-1}\left(\frac{3^k}{3^{5k}}\right)*n^5
+$$
+
 
