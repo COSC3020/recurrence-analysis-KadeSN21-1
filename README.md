@@ -92,3 +92,4 @@ Since $\left(\frac{3^{log(n) - 1}}{3^{5(log(n) - 1)}}\right)$ aproaches 0 as $n$
 
 Help: Slide 20 helped get me started, I then looked at https://github.com/COSC3020/recurrence-analysis-Powerfuljackell-2 to get an idea of how to form the summation that takes place here, with help on that also from https://www.cuemath.com/geometric-sum-formula/ I also used ChatGPT to find out how to write $\infty$ and $\sum{}^{}$
 
+“I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
