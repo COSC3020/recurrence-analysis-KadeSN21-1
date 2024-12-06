@@ -38,7 +38,6 @@ T(n) =
 \text{if } n > 1\end{cases}
 $$
 
-Since the relation is dominated by $\mathcal{O}(n^3)$, the function is bounded by $\mathcal{O}(n^3)$
 
 We can solve this by substitution:
 First level:
@@ -70,5 +69,23 @@ If we plug in $log(n)$ for $i$, we have:
 $$
 3^{log(n)}T\left(\frac{n}{3^{log(n)}}\right) + \sum_{k=0}^{log(n)-1}\left(\frac{3^k}{3^{5k}}\right)*n^5
 $$
+
+$$
+= nT(1) + (\left(\frac{3^{log(n) - 1}{3^{5(log(n - 1}}\right) + 1) * n^5
+$$
+
+Dropping the constant factor $nT(1) we now have:
+
+$$
+(\left(\frac{3^{log(n) - 1}{3^{5(log(n - 1}}\right) + 1) * n^5
+$$
+
+Simplifying:
+
+$$
+n^5 * \left(\frac{3^{log(n) - 1}{3^{5(log(n - 1}}\right) + n^5
+$$
+
+Since $\left(\frac{3^{log(n) - 1}{3^{5(log(n) - 1)}}\right)$ aproaches 0 as $n$ approaches $\infinity$, $n^5$ dominates this relation, thus $n^5 \in \mathical{O}(n^5)$
 
 
