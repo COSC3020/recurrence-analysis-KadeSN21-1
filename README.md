@@ -36,7 +36,7 @@ I relaized that the first and last for loops are running $n^2$ times, and update
 $$
 T(n) = 
 \begin{cases} 1 & \text{if } n \leq 1,\\
-3T\left(\frac{n}{3}\right) + \mathcal{O}(n^5) & 
+3T\left(\frac{n}{3}\right) + n^5 & 
 \text{if } n > 1\end{cases}
 $$
 
